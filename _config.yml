@@ -1,9 +1,0 @@
-title: Rusty Spoke Community Bicycle Collective
-email: info@rustyspoke.org
-description: The Rusty Spoke Community Bicycle Initiative is a volunteer based organization dedicated to bicycle advocacy in the Phoenix community. The Rusty Spoke's objective is to provide space for DIY (Do It Yourself) bicycle repair and recycling, and to encourage bicycle awareness through education and outreach. Based in downtown Phoenix, the Rusty Spoke is a safe and open space to ensure that all feel welcome.
-baseurl: ""
-url: "rustyspoke.github.io"
-
-# Build settings
-markdown: kramdown
-theme: minima

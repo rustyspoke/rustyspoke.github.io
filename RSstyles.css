@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Sanchez');
+
+body {
+    font-family: 'Sanchez', serif;
+    font-size: 1.5em;
+    color: #222222;
+    position: relative;
+    line-height: 1.5em;
+}
+
+.hide {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    color: #222222;
+}
+
+.page h2 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    color: #9d9d9d;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0px 30px;
+    border: 1px solid #cbcbcb;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.btn-group-lg>.btn, .btn-lg:hover {
+    border: 1px solid #222222;
+    color: #935347;
+    background: transparent;
+}
+
+.btn-default {
+    color: #9d9d9d;
+    display: inline-block;
+    border: 1px solid #cbcbcb;
+    margin-top: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.btn-default:hover {
+    border: 1px solid #222222;
+    color: #935347;
+    background: transparent;
+}
+
+
+/** Header Navigation **/
+
+header .navbar {
+    padding: 30px 0;
+    transition: all .5s ease-out;
+}
+
+header .navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+header .navbar-default .navbar-nav a {
+    color: #f7fafa;
+    padding: 20px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+    color: #935347;
+}
+
+header .navbar-default .navbar-nav .active a {
+    color: #935347;
+    background: transparent;
+}
+
+header .navbar-default .navbar-nav .mission a {
+    display: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #935347;
+    background: transparent;
+}
+
+/** Navbar Brand **/
+
+.navbar-brand {
+    background-image: url(Images/rs_brand.png);
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    height: auto;
+}
+
+header .navbar-brand h1 {
+    color: #f7fafa;
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 700;
+    padding-left: 60px;
+   
+}
+
+header .navbar-brand span.subhead {
+    display: block;
+    font-family: 'Sanchez', serif;
+    font-size: .6em;
+}
+
+header .navbar-toggle {
+    background-color: #935347;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+    background-color: #f7fafa;
+}
+
+@media only screen
+    and (max-width: 768px) {
+        header .navbar-collapse {
+           background-color: rgba(217,217,217, .6); 
+        }
+}
+
+/** nav inbody **/
+
+header .inbody {
+    background: rgba(34, 34, 34, .9);
+}
+
+header .navbar.inbody {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header .inbody .navbar-brand {
+    background-size: 35px;
+    background-position: 10px 10px;
+    margin-top: 5px;
+    padding-bottom: 10;
+    margin-left: 10px;
+}
+
+header .inbody .navbar-brand h1 {
+    font-size: 1.1em;
+    padding-left: 38px;
+    padding-top: 2px;
+    color: #f7fafa;
+}
+
+header .inbody .navbar-brand span.subhead {
+    display: none;
+}
+
+/**  Carousel Fade **/
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  transition: opacity ease-out .7s;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 0;
+  position: relative;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}
+
+.carousel-control {
+  opacity: 0;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+
+#featured .item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+/** Page -- About **/
+
+.icon {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.img-circle {
+    max-width: 200px;
+}
+
+a.submit {
+    color: #9d9d9d;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0px 30px;
+    border: 1px solid #cbcbcb;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+a.submit:hover {
+    border: 1px solid #222222;
+    color: #935347;
+}
+
+#about {
+    border-top: 10px solid #935347;
+    border-bottom: 1px solid #cbcbcb;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #f8f8f8;
+    /**background-image: linear-gradient(to bottom, #9cafa9, #ffffff);**/
+}
+
+.form-control  {
+    width: 50%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+/** Page -- The Shop **/
+
+#theShop {
+    padding-top: 20px;
+}
+
+.service {
+    margin: 20px 0;
+    text-align: center;
+}
+
+@media only screen
+and (min-width: 450px)
+and (max-width: 786px) {
+    .service p {
+        padding: 0 20%;
+    }   
+}
+
+/** Page -- The Crew **/
+
+#theCrew {
+    background-color: #ece8cd;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.member {
+    margin: 10px 0;
+}
+
+.member h3{
+    font-weight: 700;
+    font-size: 1.2 em;
+    color: #64706c;
+    padding-bottom: 5px;
+}
+
+.member p {
+    font-size: .8em;
+}
+
+.member img {
+    width: 100%;
+}
+
+/** Page -- Donate **/
+
+#donate {
+    background: #f8f8f8;
+    color: #222222;
+    border-bottom: 1px solid #cbcbcb;
+    padding-bottom: 40px;
+}
+
+#donate h2 {
+    color: #222222;
+    padding-top: 10px;
+}
+
+/** Page -- Contact **/
+#contact {
+    margin-bottom: 30px;
+}
+#contact h2 {
+    padding-top: 10px;
+}
+
+#contactname {
+    width: 450px;
+}
+
+#contactemail {
+    width: 450px;
+}
+
+#contactmessage {
+    width: 450px;
+    height: 300px;
+}
+
+/** Footer Navigation **/
+
+footer {
+    background: #222222;
+    color: #777777;
+    font-size: .8em;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+footer .email {
+    color: #935347;
+}
+
+footer .phone {
+    color: #f7fafa;
+}

@@ -97,7 +97,7 @@ header .navbar-default .navbar-nav .mission a {
 /** Navbar Brand **/
 
 .navbar-brand {
-    background-image: url(Images/rs_brand.png);
+    background-image: url(/Images/rs_brand.png);
     background-repeat: no-repeat;
     background-position: 10px 20px;
     height: auto;
@@ -239,7 +239,6 @@ a.submit:hover {
     padding-top: 20px;
     padding-bottom: 30px;
     background-color: #f8f8f8;
-    /**background-image: linear-gradient(to bottom, #9cafa9, #ffffff);**/
 }
 
 .form-control  {
@@ -298,7 +297,13 @@ and (max-width: 786px) {
 
 #donate {
     background: #f8f8f8;
-    color: #222222;
+    background-image: url(Images/forks.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    color: #f7fafa;
     border-bottom: 1px solid #cbcbcb;
     padding-bottom: 40px;
 }

@@ -97,7 +97,7 @@ header .navbar-default .navbar-nav .mission a {
 /** Navbar Brand **/
 
 .navbar-brand {
-    background-image: url(/Images/rs_brand.png);
+    background-image: url(../rustyspoke.github.io/Images/rs_brand.png);
     background-repeat: no-repeat;
     background-position: 10px 20px;
     height: auto;
@@ -296,8 +296,7 @@ and (max-width: 786px) {
 /** Page -- Donate **/
 
 #donate {
-    background: #f8f8f8;
-    background-image: url(Images/forks.png);
+    background: #64706c;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

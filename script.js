@@ -2,7 +2,7 @@ $(function () {
     
     "use strict";
     
-    var topoffset = 65; //variable for menu height
+    var topoffset = 62; //variable for menu height
     var slideqty = $('#featured .item').length;
     var wheight = $(window).height(); //get the height of the window
     var randSlide = Math.floor(Math.random()*slideqty);

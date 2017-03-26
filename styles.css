@@ -24,24 +24,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.btn-group-lg>.btn, .btn-lg {
-    color: #9d9d9d;
-    display: inline-block;
-    line-height: 50px;
-    padding: 0px 30px;
-    border: 1px solid #cbcbcb;
-    margin-top: 10px;
-    font-size: 18px;
-    border-radius: 5px;
-    background: transparent;
-}
-
-.btn-group-lg>.btn, .btn-lg:hover {
-    border: 1px solid #222222;
-    color: #935347;
-    background: transparent;
-}
-
 .btn-default {
     color: #9d9d9d;
     display: inline-block;
@@ -58,6 +40,23 @@ h1, h2, h3, h4, h5, h6 {
     background: transparent;
 }
 
+.btn-group-lg>.btn, .btn-lg {
+    color: #9d9d9d;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0px 30px;
+    border: 1px solid #cbcbcb;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.btn-group-lg>.btn, .btn-lg:hover {
+    border: 1px solid #222222;
+    color: #222222;
+    background: transparent;
+}
 
 /** Header Navigation **/
 
@@ -97,7 +96,7 @@ header .navbar-default .navbar-nav .mission a {
 /** Navbar Brand **/
 
 .navbar-brand {
-    background-image: url(../rustyspoke.github.io/Images/rs_brand.png);
+    background-image: url(/Images/rs_brand.png);
     background-repeat: no-repeat;
     background-position: 10px 20px;
     height: auto;

@@ -97,7 +97,7 @@ header .navbar-default .navbar-nav .mission a {
 /** Navbar Brand **/
 
 .navbar-brand {
-    background-image: url(../rustyspoke.github.io/Images/rs_brand.png);
+    background-image: url(Images/rs_brand.png);
     background-repeat: no-repeat;
     background-position: 10px 20px;
     height: auto;
@@ -241,6 +241,39 @@ a.submit:hover {
     background-color: #f8f8f8;
 }
 
+#about .btn-lg {
+    border: none;
+    border-bottom: 1px solid #cbcbcb;
+    border-radius: 0;
+    padding: 0px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    color: #9d9d9d;
+    
+}
+
+#about .btn-lg:hover {
+    border: none;
+    border-bottom: 1px solid #222222;
+    border-radius: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    color: #935347;
+    
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #cbcbcb;
+    border-radius: 0;
+    color: #9d9d9d;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0px;
+}
+
 .form-control  {
     width: 50%;
     margin-bottom: 15px;
@@ -319,7 +352,7 @@ div .donateimg {
 }
 
 .bikeimg {
-    background-image: url(../rustyspoke.github.io/Images/1.jpeg);
+    background-image: url(Images/1.jpeg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;

@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <title>Rusty Spoke Community Bicycle Initiative</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../rustyspoke.github.io/styles.css">
-  <script src="../rustyspoke.github.io/prefixfree.min.js"></script>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/prefixfree.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -42,11 +42,11 @@
     </ol>
 
     <div class="carousel-inner fullheight">
-      <div class="item"><img src="../rustyspoke.github.io/Images/wheel.png" alt="Wheel"></div>
-      <div class="item"><img src="../rustyspoke.github.io/Images/phxbikelab.png" alt="Phoenix Bike Lab"></div>
-      <div class="item"><img src="../rustyspoke.github.io/Images/bluebike.png" alt="Schwinn Bicycle"></div>
-      <div class="item"><img src="../rustyspoke.github.io/Images/chainrings.png" alt="Chain Rings"></div>
-      <div class="item"><img src="../rustyspoke.github.io/Images/740grant.png" alt="740 West Grant"></div>  
+      <div class="item"><img src="Images/wheel.png" alt="Wheel"></div>
+      <div class="item"><img src="Images/phxbikelab.png" alt="Phoenix Bike Lab"></div>
+      <div class="item"><img src="Images/bluebike.png" alt="Schwinn Bicycle"></div>
+      <div class="item"><img src="Images/chainrings.png" alt="Chain Rings"></div>
+      <div class="item"><img src="Images/740grant.png" alt="740 West Grant"></div>  
     </div><!-- carousel-inner -->
 
     <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
@@ -65,19 +65,74 @@
          <h2>Our Mission</h2> 
             <p>The Rusty Spoke Community Bicycle Initiative is a volunteer based organization dedicated to bicycle advocacy in the Phoenix community. The Rusty Spoke's objective is to provide space for DIY (Do It Yourself) bicycle repair and recycling, and to encourage bicycle awareness through education and outreach. Based in downtown Phoenix, the Rusty Spoke is a safe and open space to ensure that all feel welcome.</p>
           <div class="row">
+              
               <article class="icon col-sm-4">
                   <img class="img-circle" src="Images/bikeicon.png" alt="Grassroots cycling resource">
-                    <h3>Grassroots Cycling Resource</h3>
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#resourceModal">
+                    Grassroots Cycling Resource
+                  </button>
+                  
+                  <!-- Modal -->
+                    <div class="modal fade" id="resourceModal" tabindex="-1" role="dialog" aria-labelledby="Resource Modal">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Grassroots Cycling Resource</h4>
+                          </div>
+                          <div class="modal-body">
+                            Learn the basics of road, mountain, and urban cycling in Phoenix, bicycle maintenance, responsible riding, and safety from knowledgable cycling advocates. 
+                          </div> <!-- modal-body -->
+                        </div> <!-- modal-content -->
+                      </div> <!-- modal-dialog -->
+                    </div> <!-- myModal -->
               </article>
+              
               <article class="icon col-sm-4">
                   <img class="img-circle" src="Images/diyicon.png" alt="DIY repair spot">
-                    <h3>DIY Repair Spot</h3>
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#repairSpotModal">
+                    Do-It-Yourself Repair Spot
+                  </button>
+                  
+                  <!-- Modal -->
+                    <div class="modal fade" id="repairSpotModal" tabindex="-1" role="dialog" aria-labelledby="Repair spot modal">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">DIY Repair Spot</h4>
+                          </div>
+                          <div class="modal-body">
+                            Tune up your bike and your maintenance skills in the Rusty Spoke shop where you can find most, if not all of the tools you will need. Or, ask about work-trade to earn and build your own bike!
+                          </div> <!-- modal-body -->
+                        </div> <!-- modal-content -->
+                      </div> <!-- modal-dialog -->
+                    </div> <!-- myModal -->
               </article>
+              
               <article class="icon col-sm-4">
                   <img class="img-circle" src="Images/communityicon.png" alt="Community event Space">
-                    <h3>Community Event Space</h3>
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#communityModal">
+                    Community Event Space
+                  </button>
+                  
+                  <!-- Modal -->
+                    <div class="modal fade" id="communityModal" tabindex="-1" role="dialog" aria-labelledby="Community Event Space modal">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Community Event Space</h4>
+                          </div>
+                          <div class="modal-body">
+                            The Rusty Spoke functions as a space for events such as movie screenings, rock shows, potlucks, and even the occasional dance party. 
+                          </div> <!-- modal-body -->
+                        </div> <!-- modal-content -->
+                      </div> <!-- modal-dialog -->
+                    </div> <!-- myModal -->
               </article>
-          </div>
+              
+          </div> <!-- row -->
             <!-- <p>The Rusty spoke was founded in the fall of 2008 in the back yard of the long house art gallery on fifth street and Roosevelt. The collective was formed out of the growing interest in other community bicycle coops/collectives throughout Arizona and the country.</p>
             <p>The collective started with 4 core members with some knowledge, a small amount of tools, and used parts. Over the first year we began to grow out of our small backyard space and moved to a larger space on Grand Avenue, which was located on the west side of downtown Phoenix. We then moved again, right down the street, on Fillmore and Grand Avenue.</p>
             <p>The shop has always maintained a DIY ethos with a commitment to provide a safe space to all people. Most things in the shop have been built or donated to us. The shop has also maintained a close relationship to other grassroots organizations that promote positive and radical thinking, workshops, and projects.</p> -->
@@ -211,15 +266,15 @@
       <form>
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="name" class="form-control" id="contactname" placeholder="Name">
+            <input type="name" class="form-control" id="contactname" placeholder="your name">
           </div>
           <div class="form-group">
             <label for="email">Email address</label>
-            <input type="email" class="form-control" id="contactemail" placeholder="Email">
+            <input type="email" class="form-control" id="contactemail" placeholder="your email">
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea class="form-control" rows="3" placeholder="Message" id="contactmessage"></textarea>
+            <textarea class="form-control" rows="3" placeholder="your message" id="contactmessage"></textarea>
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
      </form>
@@ -264,6 +319,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="../rustyspoke.github.io/script.js"></script>
+<script src="/script.js"></script>
 </body>
 </html>

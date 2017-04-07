@@ -343,6 +343,11 @@ and (max-width: 786px) {
     padding-top: 10px;
 }
 
+#donate button, input, select, textarea {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
 div .donateimg {
     margin: 0;
     padding: 0;

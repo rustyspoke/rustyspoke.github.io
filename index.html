@@ -1,379 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63818391-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63818391-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "UA-63818391-1");
+    </script>
 
-  gtag('config', 'UA-63818391-1');
-</script>
+    <meta charset="UTF-8" />
+    <title>Rusty Spoke Community Bicycle Initiative</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="/prefixfree.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-  <meta charset="UTF-8">
-  <title>Rusty Spoke Community Bicycle Initiative</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <script src="/prefixfree.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet" type="text/css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#collapse"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#featured"
+              ><h1>The Rusty Spoke <span class="subhead">Community Bicycle Collective</span></h1></a
+            >
+          </div>
+          <!-- navbar-header -->
+          <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active mission"><a href="#featured">Mission</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#theShop">The Shop</a></li>
+              <li><a href="#theCrew">The Crew</a></li>
+              <li><a href="#donate">Donate</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <!-- collapse -->
+        </div>
+        <!-- container -->
+      </nav>
 
-<body>
-<header>
-   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-       <a class="navbar-brand" href="#featured"><h1>The Rusty Spoke <span class="subhead">Community Bicycle Collective</span></h1></a>
-      </div> <!-- navbar-header -->
-    <div class="collapse navbar-collapse" id="collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active mission"><a href="#featured">Mission</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#theShop">The Shop</a></li>
-        <li><a href="#theCrew">The Crew</a></li>
-        <li><a href="#donate">Donate</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div> <!-- collapse -->
-    </div> <!-- container -->
-  </nav>
-    
- <div class="carousel fade" data-ride="carousel" id="featured">
-     <ol class="carousel-indicators">
-    </ol>
+      <div class="carousel fade" data-ride="carousel" id="featured">
+        <ol class="carousel-indicators"></ol>
 
-    <div class="carousel-inner fullheight">
-      <div class="item"><img src="Images/carousel/wheel.png" alt="Wheel"></div>
-      <div class="item"><img src="Images/carousel/phxbikelab.png" alt="Phoenix Bike Lab"></div>
-      <div class="item"><img src="Images/carousel/bluebike.png" alt="Schwinn Bicycle"></div>
-      <div class="item"><img src="Images/carousel/chainrings.png" alt="Chain Rings"></div>
-    </div><!-- carousel-inner -->
+        <div class="carousel-inner fullheight">
+          <div class="item"><img src="Images/carousel/wheel.png" alt="Wheel" /></div>
+          <div class="item">
+            <img src="Images/carousel/phxbikelab.png" alt="Phoenix Bike Lab" />
+          </div>
+          <div class="item"><img src="Images/carousel/bluebike.png" alt="Schwinn Bicycle" /></div>
+          <div class="item"><img src="Images/carousel/chainrings.png" alt="Chain Rings" /></div>
+        </div>
+        <!-- carousel-inner -->
 
-    <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#featured" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
- </div> <!-- featured-->
-</header>
+        <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#featured" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+      <!-- featured-->
+    </header>
 
-<div class="main">
-    
-  <div class="page" id="about">
-      <div class="content container">
-         <h2>Our Mission</h2> 
-            <p>The Rusty Spoke Community Bicycle Initiative is a volunteer based organization dedicated to bicycle advocacy in the Phoenix community. The Rusty Spoke's objective is to provide space for DIY (Do It Yourself) bicycle repair and recycling, and to encourage bicycle awareness through education and outreach. Based in downtown Phoenix, the Rusty Spoke is a safe and open space to ensure that all feel welcome.</p>
+    <div class="main">
+      <div class="page" id="about">
+        <div class="content container">
+          <h2>Our Mission</h2>
+          <p>
+            The Rusty Spoke Community Bicycle Initiative is a volunteer based organization dedicated
+            to bicycle advocacy in the Phoenix community. The Rusty Spoke's objective is to provide
+            space for DIY (Do It Yourself) bicycle repair and recycling, and to encourage bicycle
+            awareness through education and outreach. Based in downtown Phoenix, the Rusty Spoke is
+            a safe and open space to ensure that all feel welcome.
+          </p>
           <div class="row">
-              
-              <article class="icon col-sm-4">
-                  <img class="img-circle" src="Images/bikeicon.png" alt="Grassroots cycling resource">
-                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#resourceModal">
-                    Grassroots Cycling Resource
-                  </button>
-                  
-                  <!-- Modal -->
-                    <div class="modal fade" id="resourceModal" tabindex="-1" role="dialog" aria-labelledby="Resource Modal">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Grassroots Cycling Resource</h4>
-                          </div>
-                          <div class="modal-body">
-                            Learn the basics of road, mountain, and urban cycling in Phoenix, bicycle maintenance, responsible riding, and safety from knowledgable cycling advocates. 
-                          </div> <!-- modal-body -->
-                        </div> <!-- modal-content -->
-                      </div> <!-- modal-dialog -->
-                    </div> <!-- myModal -->
-              </article>
-              
-              <article class="icon col-sm-4">
-                  <img class="img-circle" src="Images/diyicon.png" alt="DIY repair spot">
-                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#repairSpotModal">
-                    Do-It-Yourself Repair Spot
-                  </button>
-                  
-                  <!-- Modal -->
-                    <div class="modal fade" id="repairSpotModal" tabindex="-1" role="dialog" aria-labelledby="Repair spot modal">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">DIY Repair Spot</h4>
-                          </div>
-                          <div class="modal-body">
-                            Tune up your bike and your maintenance skills in the Rusty Spoke shop where you can find most, if not all of the tools you will need. Or, ask about work-trade to earn and build your own bike!
-                          </div> <!-- modal-body -->
-                        </div> <!-- modal-content -->
-                      </div> <!-- modal-dialog -->
-                    </div> <!-- myModal -->
-              </article>
-              
-              <article class="icon col-sm-4">
-                  <img class="img-circle" src="Images/communityicon.png" alt="Community event Space">
-                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#communityModal">
-                    Community Event Space
-                  </button>
-                  
-                  <!-- Modal -->
-                    <div class="modal fade" id="communityModal" tabindex="-1" role="dialog" aria-labelledby="Community Event Space modal">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Community Event Space</h4>
-                          </div>
-                          <div class="modal-body">
-                            The Rusty Spoke functions as a space for events such as movie screenings, rock shows, potlucks, and even the occasional dance party. 
-                          </div> <!-- modal-body -->
-                        </div> <!-- modal-content -->
-                      </div> <!-- modal-dialog -->
-                    </div> <!-- myModal -->
-              </article>
-              
-          </div> <!-- row -->
-            <!-- <p>The Rusty spoke was founded in the fall of 2008 in the back yard of the long house art gallery on fifth street and Roosevelt. The collective was formed out of the growing interest in other community bicycle coops/collectives throughout Arizona and the country.</p>
+            <article class="icon col-sm-4">
+              <img class="img-circle" src="Images/bikeicon.png" alt="Grassroots cycling resource" />
+              <button
+                type="button"
+                class="btn btn-primary btn-lg"
+                data-toggle="modal"
+                data-target="#resourceModal"
+              >
+                Grassroots Cycling Resource
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="resourceModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="Resource Modal"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                      <h4 class="modal-title" id="myModalLabel">Grassroots Cycling Resource</h4>
+                    </div>
+                    <div class="modal-body">
+                      Learn the basics of road, mountain, and urban cycling in Phoenix, bicycle
+                      maintenance, responsible riding, and safety from knowledgable cycling
+                      advocates.
+                    </div>
+                    <!-- modal-body -->
+                  </div>
+                  <!-- modal-content -->
+                </div>
+                <!-- modal-dialog -->
+              </div>
+              <!-- myModal -->
+            </article>
+
+            <article class="icon col-sm-4">
+              <img class="img-circle" src="Images/diyicon.png" alt="DIY repair spot" />
+              <button
+                type="button"
+                class="btn btn-primary btn-lg"
+                data-toggle="modal"
+                data-target="#repairSpotModal"
+              >
+                Do-It-Yourself Repair Spot
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="repairSpotModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="Repair spot modal"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                      <h4 class="modal-title" id="myModalLabel">DIY Repair Spot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Tune up your bike and your maintenance skills in the Rusty Spoke shop where
+                      you can find most, if not all of the tools you will need. Or, ask about
+                      work-trade to earn and build your own bike!
+                    </div>
+                    <!-- modal-body -->
+                  </div>
+                  <!-- modal-content -->
+                </div>
+                <!-- modal-dialog -->
+              </div>
+              <!-- myModal -->
+            </article>
+
+            <article class="icon col-sm-4">
+              <img class="img-circle" src="Images/communityicon.png" alt="Community event Space" />
+              <button
+                type="button"
+                class="btn btn-primary btn-lg"
+                data-toggle="modal"
+                data-target="#communityModal"
+              >
+                Community Event Space
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="communityModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="Community Event Space modal"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                      <h4 class="modal-title" id="myModalLabel">Community Event Space</h4>
+                    </div>
+                    <div class="modal-body">
+                      The Rusty Spoke functions as a space for events such as movie screenings, rock
+                      shows, potlucks, and even the occasional dance party.
+                    </div>
+                    <!-- modal-body -->
+                  </div>
+                  <!-- modal-content -->
+                </div>
+                <!-- modal-dialog -->
+              </div>
+              <!-- myModal -->
+            </article>
+          </div>
+          <!-- row -->
+          <!-- <p>The Rusty spoke was founded in the fall of 2008 in the back yard of the long house art gallery on fifth street and Roosevelt. The collective was formed out of the growing interest in other community bicycle coops/collectives throughout Arizona and the country.</p>
             <p>The collective started with 4 core members with some knowledge, a small amount of tools, and used parts. Over the first year we began to grow out of our small backyard space and moved to a larger space on Grand Avenue, which was located on the west side of downtown Phoenix. We then moved again, right down the street, on Fillmore and Grand Avenue.</p>
             <p>The shop has always maintained a DIY ethos with a commitment to provide a safe space to all people. Most things in the shop have been built or donated to us. The shop has also maintained a close relationship to other grassroots organizations that promote positive and radical thinking, workshops, and projects.</p> -->
           <h3>Subscribe to our mailing list!</h3>
           <!-- Begin MailChimp Signup Form -->
-          <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+          <link
+            href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+            rel="stylesheet"
+            type="text/css"
+          />
           <style type="text/css">
-            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            #mc_embed_signup {
+              background: #fff;
+              clear: left;
+              font: 14px Helvetica, Arial, sans-serif;
+            }
             /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
           </style>
           <div id="mc_embed_signup">
-          <form action="//rustyspoke.us12.list-manage.com/subscribe/post?u=4a6a8ee69526fe00b2ce21ea6&amp;id=7452b3e9f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form
+              action="//rustyspoke.us12.list-manage.com/subscribe/post?u=4a6a8ee69526fe00b2ce21ea6&amp;id=7452b3e9f3"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate"
+              target="_blank"
+              novalidate
+            >
               <div id="mc_embed_signup_scroll">
-            <h2>Subscribe to our mailing list</h2>
-          <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-          <div class="mc-field-group">
-            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-          </label>
-            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-          </div>
-          <div class="mc-field-group">
-            <label for="mce-FNAME">First Name </label>
-            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-          </div>
-          <div class="mc-field-group">
-            <label for="mce-LNAME">Last Name </label>
-            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-          </div>
-            <div id="mce-responses" class="clear">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4a6a8ee69526fe00b2ce21ea6_7452b3e9f3" tabindex="-1" value=""></div>
-              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                <h2>Subscribe to our mailing list</h2>
+                <div class="indicates-required">
+                  <span class="asterisk">*</span> indicates required
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Email Address <span class="asterisk">*</span> </label>
+                  <input
+                    type="email"
+                    autocomplete="email"
+                    name="EMAIL"
+                    class="required email"
+                    id="mce-EMAIL"
+                  />
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-FNAME">First Name </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME" />
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-LNAME">Last Name </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME" />
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display: none"></div>
+                  <div class="response" id="mce-success-response" style="display: none"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px" aria-hidden="true">
+                  <input
+                    type="text"
+                    name="b_4a6a8ee69526fe00b2ce21ea6_7452b3e9f3"
+                    tabindex="-1"
+                    value=""
+                  />
+                </div>
+                <div class="clear">
+                  <input
+                    type="submit"
+                    value="Subscribe"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="button"
+                  />
+                </div>
               </div>
-          </form>
+            </form>
           </div>
-          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          <script
+            type="text/javascript"
+            src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+          ></script>
+          <script type="text/javascript">
+            (function ($) {
+              window.fnames = new Array();
+              window.ftypes = new Array();
+              fnames[0] = "EMAIL";
+              ftypes[0] = "email";
+              fnames[1] = "FNAME";
+              ftypes[1] = "text";
+              fnames[2] = "LNAME";
+              ftypes[2] = "text";
+            })(jQuery);
+            var $mcj = jQuery.noConflict(true);
+          </script>
           <!--End mc_embed_signup-->
-      </div> <!-- content container -->
-  </div><!-- about page -->
-    
-<div class="content container">
-  <div class="page" id="theShop">
-    <h2>The Shop</h2>
-      <p>We have a well-stocked workspace with most, if not all, of the tools that you need to work on your bike. Bikes come in a variety of configurations and we have the tools for pretty much all of them (save a few specialty tools). We also have been known to make improvised tools when needed; just because we don’t have one doesn’t mean we can’t make it work. DIY is encouraged at the Rusty Spoke and we have a few volunteers who specialize in creative ways to fix or modify your bike.</p>
-      <div class="row">
-        <article class="service col-sm-6">
-          <img class="icon" src="Images/tools_icon.png" alt="Tools">
-          <h3>Tools</h3>
-          <p>Crank pullers, metric and standard wrenches, wheel truing stand, socket wrenches, hex key sets, screw drivers, pliers, hacksaws, and more!</p>
-        </article>
+        </div>
+        <!-- content container -->
+      </div>
+      <!-- about page -->
 
-        <article class="service col-sm-6">
-          <img class="icon" src="Images/parts_icon.png" alt="Supplies">
-          <h3>Parts and Supplies</h3>
-          <p>Lubricants, brake cables, new and used tubes, new and used tires, various sized rims, road and mountain bike frames, bearings, bottom brackets, and more!</p>
-        </article>
-      </div> <!-- row -->
-      </div><!-- content container -->
-    </div> <!-- the shop page -->
-
-  <div class="page" id="theCrew">
-      <div class="container-fluid">
-        <h2 id="members">Meet the Crew</h2>
+      <div class="content container">
+        <div class="page" id="theShop">
+          <h2>The Shop</h2>
+          <p>
+            We have a well-stocked workspace with most, if not all, of the tools that you need to
+            work on your bike. Bikes come in a variety of configurations and we have the tools for
+            pretty much all of them (save a few specialty tools). We also have been known to make
+            improvised tools when needed; just because we don’t have one doesn’t mean we can’t make
+            it work. DIY is encouraged at the Rusty Spoke and we have a few volunteers who
+            specialize in creative ways to fix or modify your bike.
+          </p>
           <div class="row">
-               
-              <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/logo.png" alt="Photo of Clyde">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>This could be you!</h3>
-                      <p>Pedal over to the Rusty Spoke to talk to the crew about volunteering.</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->
-              
-            <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/peter.JPG"  alt="Photo of Peter">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>Peter</h3>
-                      <p>Kind, but elusive.</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->  
-              
-            <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/dave.png"  alt="Photo of Dave">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>Dave</h3>
-                      <p>IT guy</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->  
+            <article class="service col-sm-6">
+              <img class="icon" src="Images/tools_icon.png" alt="Tools" />
+              <h3>Tools</h3>
+              <p>
+                Crank pullers, metric and standard wrenches, wheel truing stand, socket wrenches,
+                hex key sets, screw drivers, pliers, hacksaws, and more!
+              </p>
+            </article>
 
-              <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/logo.png" alt="Photo of Clyde">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>This could be you!</h3>
-                      <p>Pedal over to the Rusty Spoke to talk to the crew about volunteering.</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->
-
-            <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/bill.png"  alt="Photo of Bill">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>Bill</h3>
-                      <p>Humble superhero, sans the cape. Fan of craft beer, independent movies, and riding his bike anywhere he can.</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->
-
-            <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/richard.jpeg"  alt="Photo of Ana">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>Richard</h3>
-                      <p>Shows up occasionally on Wednesdays. Thinks that cantilever-frame cruisers are the key to happiness. Plays in traffic.</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->    
-              
-            <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/spencer.png" alt="Photo of Clyde">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>Spencer</h3>
-                      <p>Aspiring economist, professional casual bike commuter, amateur home chef. Enjoys board game evenings and late night runs.</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->
-              
-            <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/logo.png" alt="Photo of Clyde">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>This could be you!</h3>
-                      <p>Pedal over to the Rusty Spoke to talk to the crew about volunteering.</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->
-              
-            <div class="member col-lg-4">
-                <div class="row">
-                    <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-                      <img class="img-circle" src="Images/crew/logo.png" alt="Photo of Clyde">
-                    </div> <!-- photo -->
-                    <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-                      <h3>This could be you!</h3>
-                      <p>Pedal over to the Rusty Spoke to talk to the crew about volunteering.</p>
-                    </div> <!-- info -->
-                </div> <!-- inner row -->
-            </div> <!-- member -->
-              
-          </div> <!-- outer row --> 
-      </div> <!-- container -->   
-  </div><!-- theCrew page -->
-
-<div class="page" id="donate">
-  <div class="content container">
-    <h2>Donations</h2>
-      <p>Running a successful co-op can get pretty expensive. We currently do not receive much in the way of grants and are almost 100% community-supported. Most of our funding comes from donations given at the shop by the people who use our services; however, given the demographic that we primarily serve not everyone is able to contribute. If you have the means and the desire to help support the Rusty Spoke Community Bicycle Initiative please do by clicking the donate button.</p>
-      <p>We also accept donations of bicycle parts, tools, and your time in coming down to the shop to volunteer.</p>
-      <p>We appreciate the help friends!</p>        
-
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="BQ5PDM3GWMTGE">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-
-  </div> <!-- content container-->
- <div class="donateimg container-fluid">
-   <div class="bikeimg"></div>
- </div>
-</div> <!-- donate page -->
-   
-    
-</div><!-- main -->
-
-<footer>
-    <div class="content container-fluid">
-      <div class="row">
-        <div class="col-sm-12">
-          <p>&copy; 2017 The Rusty Spoke Bicycle Collective</p>
-          <p><span class="email">info@rustyspoke.org</span> | 1110 Grand Ave, Phoenix, AZ 85007</p>
-          <p>Wednesday: 5pm - 8pm | Sunday: 9am - 12pm</p>
-        </div> <!-- col-sm-12 -->
-      </div> <!-- row -->
-    <div class="row">
-        <div class="col-sm-1 col-sm-offset-4">
-            <a href="https://www.facebook.com/rustyspoke/"><img class="img-responsive center-block" src="Images/fb-icon.png"></a>
+            <article class="service col-sm-6">
+              <img class="icon" src="Images/parts_icon.png" alt="Supplies" />
+              <h3>Parts and Supplies</h3>
+              <p>
+                Lubricants, brake cables, new and used tubes, new and used tires, various sized
+                rims, road and mountain bike frames, bearings, bottom brackets, and more!
+              </p>
+            </article>
+          </div>
+          <!-- row -->
         </div>
-        <div class="col-sm-1">
-            <a href="https://twitter.com/rustyspokephx"><img class="img-responsive center-block" src="Images/twitter-icon.png"></a>
+        <!-- content container -->
+      </div>
+      <!-- the shop page -->
+
+      <div class="page" id="theCrew">
+        <div class="container-fluid">
+          <h2 id="members">Meet the Crew</h2>
+          <div class="members-section">
+            <div class="member-content">
+              <div class="image-wrapper">
+                <img class="image-circle" src="Images/crew/peter.JPG" alt="Photo of Peter" />
+              </div>
+              <!-- photo -->
+              <div class="info">
+                <h3>Peter</h3>
+                <p>Kind, but elusive.</p>
+              </div>
+              <!-- info -->
+            </div>
+            <!-- inner row -->
+            <!-- member -->
+
+            <div class="member-content">
+              <div class="image-wrapper">
+                <img class="image-circle" src="Images/crew/dave.png" alt="Photo of Dave" />
+              </div>
+              <!-- photo -->
+              <div class="info">
+                <h3>Dave</h3>
+                <p>IT guy</p>
+              </div>
+              <!-- info -->
+            </div>
+            <!-- inner row -->
+            <!-- member -->
+
+            <div class="member-content">
+              <div class="image-wrapper">
+                <img class="image-circle" src="Images/crew/bill.png" alt="Photo of Bill" />
+              </div>
+              <!-- photo -->
+              <div class="info">
+                <h3>Bill</h3>
+                <p>
+                  Humble superhero, sans the cape. Fan of craft beer, independent movies, and riding
+                  his bike anywhere he can.
+                </p>
+              </div>
+              <!-- info -->
+            </div>
+            <!-- inner row -->
+            <!-- member -->
+
+            <div class="member-content">
+              <div class="image-wrapper">
+                <img class="image-circle" src="Images/crew/richard.jpeg" alt="Photo of Ana" />
+              </div>
+              <!-- photo -->
+              <div class="info">
+                <h3>Richard</h3>
+                <p>
+                  Shows up occasionally on Wednesdays. Thinks that cantilever-frame cruisers are the
+                  key to happiness. Plays in traffic.
+                </p>
+              </div>
+              <!-- info -->
+            </div>
+            <!-- inner row -->
+            <!-- member -->
+
+            <div class="member-content">
+              <div class="image-wrapper">
+                <img class="image-circle" src="Images/crew/spencer.png" alt="Photo of Clyde" />
+              </div>
+              <!-- photo -->
+              <div class="info">
+                <h3>Spencer</h3>
+                <p>
+                  Aspiring economist, professional casual bike commuter, amateur home chef. Enjoys
+                  board game evenings and late night runs.
+                </p>
+              </div>
+              <!-- info -->
+            </div>
+            <!-- inner row -->
+            <!-- member -->
+
+            <div class="member-content">
+              <div class="img-wrapper">
+                <img class="image-circle" src="Images/crew/logo.png" alt="This could be you!" />
+              </div>
+              <!-- photo -->
+              <div class="info">
+                <h3>This could be you!</h3>
+                <p>Pedal over to the Rusty Spoke to talk to the crew about volunteering.</p>
+              </div>
+              <!-- info -->
+            </div>
+            <!-- inner row -->
+            <!-- member -->
+          </div>
+          <!-- outer row -->
         </div>
-        <div class="col-sm-1">
-            <a href="https://www.instagram.com/rustyspokephx/"><img class="img-responsive center-block" src="Images/ig-icon.png"></a>
+        <!-- container -->
+      </div>
+      <!-- theCrew page -->
+
+      <div class="page" id="donate">
+        <div class="content container">
+          <h2>Donations</h2>
+          <p>
+            Running a successful co-op can get pretty expensive. We currently do not receive much in
+            the way of grants and are almost 100% community-supported. Most of our funding comes
+            from donations given at the shop by the people who use our services; however, given the
+            demographic that we primarily serve not everyone is able to contribute. If you have the
+            means and the desire to help support the Rusty Spoke Community Bicycle Initiative please
+            do by clicking the donate button.
+          </p>
+          <p>
+            We also accept donations of bicycle parts, tools, and your time in coming down to the
+            shop to volunteer.
+          </p>
+          <p>We appreciate the help friends!</p>
+
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="BQ5PDM3GWMTGE" />
+            <input
+              type="image"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+              border="0"
+              name="submit"
+              alt="PayPal - The safer, easier way to pay online!"
+            />
+            <img
+              alt=""
+              border="0"
+              src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+              width="1"
+              height="1"
+            />
+          </form>
         </div>
-        <div class="col-sm-1">
-            <a href="#contact"><img class="img-responsive center-block" src="Images/email-icon.png"></a>
+        <!-- content container-->
+        <div class="donateimg container-fluid">
+          <div class="bikeimg"></div>
         </div>
+      </div>
+      <!-- donate page -->
     </div>
-    </div> <!-- content container-fluid -->  
-</footer>
+    <!-- main -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
-</body>
+    <footer>
+      <div class="content container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>&copy; 2017 The Rusty Spoke Bicycle Collective</p>
+            <p>
+              <span class="email">info@rustyspoke.org</span> | 1110 Grand Ave, Phoenix, AZ 85007
+            </p>
+            <p>Wednesday: 5pm - 8pm | Sunday: 9am - 12pm</p>
+          </div>
+          <!-- col-sm-12 -->
+        </div>
+        <!-- row -->
+        <div class="row">
+          <div class="col-sm-1 col-sm-offset-4">
+            <a href="https://www.facebook.com/rustyspoke/"
+              ><img class="img-responsive center-block" src="Images/fb-icon.png"
+            /></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="https://twitter.com/rustyspokephx"
+              ><img class="img-responsive center-block" src="Images/twitter-icon.png"
+            /></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="https://www.instagram.com/rustyspokephx/"
+              ><img class="img-responsive center-block" src="Images/ig-icon.png"
+            /></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="#contact"
+              ><img class="img-responsive center-block" src="Images/email-icon.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!-- content container-fluid -->
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

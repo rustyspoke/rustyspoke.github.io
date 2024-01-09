@@ -213,10 +213,41 @@ header .inbody .navbar-brand span.subhead {
     text-align: center;
 }
 
+.info h3 {
+    font-weight: bold;
+}
+
+.members-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    gap: 24px 16px;
+}
+
+.member-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+.img-wrapper {
+    width: 200px;
+    height: 200px;
+}
+
+.image-circle {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
 .img-circle {
     max-width: 200px;
 }
-
 a.submit {
     color: #9d9d9d;
     display: inline-block;
